@@ -75,7 +75,7 @@ main {
     max-width: 1440px;
 }
 
-.main-quemsou {
+.main-paginternas {
     margin: 140px auto 10px auto;
     color: #B5B5B5;
 }
@@ -167,10 +167,28 @@ main {
     margin-top: 30px;
 }
 
-.quemsou {
+.quemsou, .tratamentos {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+}
+
+.tratamentos-item {
+    width: Calc(100% / 3);
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.tratamentos-item h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #757575;
+    padding-bottom: 15px;
+}
+
+.tratamentos-item p {
+    font-size: 14px;
+    padding-bottom: 15px;
 }
 
 .perfil {
@@ -350,6 +368,10 @@ main {
     main {
         margin: 130px auto 34px auto;
     }
+
+    .tratamentos {
+        margin: 180px auto 0 auto;
+    }
 }
 
 @media screen and (max-width: 858px) {
@@ -456,6 +478,18 @@ main {
 
     .perfilinfo p {
         text-align: center;
+    }
+
+    .tratamentos {
+        display: block;
+    }
+
+    .tratamentos-item {
+        width: 100%;
+    }
+
+    .tratamentos {
+        margin: 120px auto 0 auto;
     }
 
 }
@@ -614,7 +648,7 @@ main {
         display: none;
     }
 
-    .main-quemsou {
+    .main-paginternas {
         margin: 185px auto 10px auto;
     }
 }
