@@ -254,6 +254,92 @@ main {
     transform: scale(1.2, 1.2);
 }
 
+.depoimentos {
+    max-width: 800px;
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    font-size: 17px;
+    color: #698293;
+    font-weight: 300px;
+    padding-bottom: 30px;
+}
+
+.depoimentos blockquote {
+    color: #B4B4B4;
+    padding: 0px 80px;
+}
+
+.paciente {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.paciente-img {
+    background-image: url('../images/pacienteperfil.png');
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.paciente-nome {
+    color: #B4B4B4;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.contato {
+    max-width: 500px;
+    margin: 200px auto 10px auto;
+}
+
+.contato form {
+    padding: 0px 10px;
+}
+
+.contato form label, .contato form input {
+    display: block;
+} 
+
+.contato form label {
+    padding: 10px 0;
+}
+
+.contato form input {
+    padding-left: 10px;
+    height: 35px;
+    width: 100%;
+}
+
+.contato form textarea {
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.contato form input[type=submit] {
+    width: unset;
+    padding: 0 25px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    background-color: #688292;
+    color: white;
+    border: none;
+}
+
+.contato form input[type=submit]:hover {
+    background-color: #607886;
+}
+
+.contato form input[type=submit]:active {
+    outline: none;
+    font-size: 13px;
+}
+
 .instagram {
     background-color: #98A6AE;
     color: white;
