@@ -75,6 +75,30 @@ main {
     max-width: 1440px;
 }
 
+.main-quemsou {
+    margin: 140px auto 10px auto;
+    color: #B5B5B5;
+}
+
+.perfilinfo h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.perfilinfo p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.perfilinfo ul {
+    list-style-position: inside;
+}
+
+.perfilinfo li {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
 .mosaic-wrap {
     display: flex;
     padding: 0px 1% 0px 1.5%
@@ -118,6 +142,24 @@ main {
 
 #main-section {
     margin-top: 30px;
+}
+
+.quemsou {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.perfil {
+    width: 40%;
+    background-image: url('../images/perfilfernanda.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.perfilinfo {
+    width: 60%;
+    padding: 0px 2%;
 }
 
 .blocks-wrapper {
@@ -236,6 +278,17 @@ main {
 
 .facebook p {
     font-size: 11px;
+}
+
+.footer-quemsou {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.footer-quemsou p {
+    padding-bottom: 20px;
 }
 
 .footer-center {
@@ -363,6 +416,25 @@ main {
         float: left;
     }
 
+    .quemsou {
+        display: block;
+    }
+
+    .perfil {
+        width: 150px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .perfilinfo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .perfilinfo p {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 717px) {
@@ -425,7 +497,7 @@ main {
 }
 
 @media screen and (max-width: 500px) {
-    footer {
+    .footer-home {
         display: none;
     }
 }
@@ -517,6 +589,10 @@ main {
     */
     .mosaic2nd {
         display: none;
+    }
+
+    .main-quemsou {
+        margin: 185px auto 10px auto;
     }
 }
     
